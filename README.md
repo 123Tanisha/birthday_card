@@ -1,3 +1,4 @@
 # Birthday card
-<h1>This is a html/css project</h1>
+<h4>This is a html/css project</h4>
+
 <p>One and add the images of choice </p>
