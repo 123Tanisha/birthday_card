@@ -1,24 +1,26 @@
 body {
   text-align: center;
   font-family:'happy monkey',cursive;
-  background-color: 	#FFD700;
-  color:black;
+  background: linear-gradient(	#DE3163,#FBCEB1);
+  color:#fff;
 }
 
 #dad-img {
-  width: 250px;
-  border-radius: 5%;
-  border:5px solid #FF1493;
+  width: 400px;
+  height:300px;
+  border-radius: 8%;
+  border:5px solid #fff;
 }
 
-h1, h3{
-  text-shadow:0px 0px 1px #fff;
+h1{
+  text-shadow:0px 0px 10px #fff;
+  font-size:80px
 }
 
 h3{
-  background:#EFB0C9;
-  padding:10px;
-  border-radius: 15%;
+  background:#93C572;
+  padding:20px;
+  border-radius: 50px;
 }
 
 #header{
@@ -39,8 +41,8 @@ h3{
 .gift-img {
       margin: 0 auto;
       width: 400px;
-      height: 300px;
-      border: 6px solid red;
+      height: 250px;
+      border: 10px solid #FFFF00;
       border-radius: 10px;
       background-image: url("cover.jpg");
       background-size: cover;
@@ -48,8 +50,8 @@ h3{
 
 #gift-img-wish:hover {
     background-image: url("wish.gif");
-  width: 260px;
-  height: 300px;
+  width: 300px;
+  height: 390px;
 }
 
 #gift-img-hero:hover {
@@ -94,3 +96,8 @@ width: 480px;
 height:310px;
 }
 
+#gift-img-dad {
+background-image: url("dad.jpg");
+margin-top: 50px;
+height:400px;
+}
